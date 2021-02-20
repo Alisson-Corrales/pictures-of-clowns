@@ -1,0 +1,15 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  background-color: #ffe180;
+  color: #4f4fe0;
+  font-family: sans-serif, helvetica;
+}
+
+.div {
+  background-color: #e95050;
+}
+/*# sourceMappingURL=style.css.map */
