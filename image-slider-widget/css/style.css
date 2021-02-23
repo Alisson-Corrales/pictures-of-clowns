@@ -1,0 +1,35 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+#slider {
+  width: 720px;
+  height: 400px;
+  overflow: hidden;
+  margin: auto;
+}
+
+#slider .slides {
+  display: block;
+  width: 6000px;
+  height: 400px;
+}
+
+#slider .slide {
+  width: 720px;
+  height: 400px;
+  list-style-type: none;
+  float: left;
+}
+
+h1 {
+  text-align: center;
+  padding: 1.5rem;
+}
+/*# sourceMappingURL=style.css.map */
