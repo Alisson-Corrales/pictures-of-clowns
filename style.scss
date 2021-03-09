@@ -4,20 +4,62 @@
 }
 
 $font: sans-serif, helvetica;
-$background-color: rgb(255, 225, 128);
-$font-color: rgb(79, 79, 224);
-$panel-color: rgb(233, 80, 80);
+$background-color: #F7D39D;
+$font-color: #3A5213;
+$panel-color: #84ABDB;
+$hover: #C9DB6D;
 
-*{
+/*$background-color: rgb(253, 208, 110);
+$font-color: rgb(34, 34, 126);
+$panel-color: rgb(250, 103, 103);
+$hover: rgb(248, 82, 82);
+*/
+
+header{
+    background-color: $panel-color;
+    padding: 2rem;
+    display: none;
+
+    li{
+        display: inline;
+        list-style-type: none;
+        padding: 2rem;
+        &:hover{
+            background-color: $hover;
+        }
+    }
+}
+
+html{
     background-color: $background-color;
     color: $font-color;
     font-family: $font;
+    text-align: center;
 }
 
-header{
-    
+div{
+    background-color: $panel-color;
+    padding: 5px;
+    margin: 10px;
 }
 
-.div{
-    background-color: $panel-color
+.main-image{
+    background-color: $background-color;
+}
+
+.tabs{
+    display: inline;
+}
+
+.galleries{
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.gallery1{
+    img{
+        display: inline-block;
+    }
 }

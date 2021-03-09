@@ -3,8 +3,6 @@
 $(function(){
     $('.tabs-panels .tabs li').on('click', function(){
 
-
-
         //~~~~~~~~~ TABS ~~~~~~~~~//
         //create a variable to store the list we are in
         let $panel = $(this).closest('.tabs-panels');
