@@ -3,7 +3,7 @@
 $(function(){
     //settings for slide
     let width = 720;
-    let animationSpeed = 2000; //a secone
+    let animationSpeed = 2000; //two seconds
     let pause = animationSpeed - 500; //1500
     let currentSlide = 1; //keeps track of slides
 

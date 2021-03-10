@@ -1,19 +1,15 @@
 *, *::after, *::before{
-    margin: 0;
     padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: helvetica;
 }
-
 $font: sans-serif, helvetica;
 $background-color: #F7D39D;
 $font-color: #3A5213;
 $panel-color: #84ABDB;
 $hover: #C9DB6D;
 
-/*$background-color: rgb(253, 208, 110);
-$font-color: rgb(34, 34, 126);
-$panel-color: rgb(250, 103, 103);
-$hover: rgb(248, 82, 82);
-*/
 
 header{
     background-color: $panel-color;
@@ -37,18 +33,39 @@ html{
     text-align: center;
 }
 
+
+.container{
+    background-color: $background-color;
+    padding: 15px;
+    #slider{
+        background-color: $background-color;
+        width: 720px;
+        height: 400px;
+        overflow: hidden;
+        margin: auto;
+        .slides{
+            display: block;
+            width: 6000px;
+            height: 400px;
+        }
+        .slide{
+            width: 720px;
+            height: 400px;
+            list-style-type: none;
+            float: left;
+        }
+    }
+}
+
 div{
     background-color: $panel-color;
     padding: 5px;
     margin: 10px;
 }
 
-.main-image{
-    background-color: $background-color;
-}
-
 .tabs{
     display: inline;
+    padding-bottom: 20px;
 }
 
 .galleries{
